@@ -103,7 +103,7 @@
           <dmn:text>"speed"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_0ACF1603-2A40-4C97-9788-B1CA86B05BDF">
-          <dmn:text>&gt;=30</dmn:text>
+          <dmn:text>&gt;= 30</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_843842F1-508C-4369-B3BF-2C908B5BB770">
           <dmn:text>1000</dmn:text>
