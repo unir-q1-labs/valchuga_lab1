@@ -102,20 +102,6 @@
           <dmn:text>3</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
-      <dmn:rule id="_BE06EFED-0126-43F2-A68D-88F987D21746">
-        <dmn:inputEntry id="_A983C410-A9E8-4B63-8180-C71D6209A1DD">
-          <dmn:text>"speed"</dmn:text>
-        </dmn:inputEntry>
-        <dmn:inputEntry id="_0ACF1603-2A40-4C97-9788-B1CA86B05BDF">
-          <dmn:text>&gt;= 30</dmn:text>
-        </dmn:inputEntry>
-        <dmn:outputEntry id="_843842F1-508C-4369-B3BF-2C908B5BB770">
-          <dmn:text>1000</dmn:text>
-        </dmn:outputEntry>
-        <dmn:outputEntry id="_1AE3840C-0486-42DF-94EC-34B722402544">
-          <dmn:text>7</dmn:text>
-        </dmn:outputEntry>
-      </dmn:rule>
       <dmn:rule id="_2D0B5D98-DAFB-4CD1-97A9-7FE8C2D0EB44">
         <dmn:inputEntry id="_8372174B-5D85-426F-921B-854887101070">
           <dmn:text>"parking"</dmn:text>
@@ -148,11 +134,11 @@
   </dmn:decision>
   <dmn:inputData id="_416E568C-2691-4F04-A368-30F3C7F84604" name="Driver">
     <dmn:extensionElements/>
-    <dmn:variable id="_43E11258-694D-4415-8E78-4542986D85DB" name="Driver" typeRef="tDriver"/>
+    <dmn:variable id="_43E11258-694D-4415-8E78-4542986D85DB" name="Driver"/>
   </dmn:inputData>
   <dmn:inputData id="_4037EE46-8AE4-4E99-93C5-E17CEB542157" name="Violation">
     <dmn:extensionElements/>
-    <dmn:variable id="_82232641-B398-4AE2-A7C1-CF8480451672" name="Violation" typeRef="tViolation"/>
+    <dmn:variable id="_82232641-B398-4AE2-A7C1-CF8480451672" name="Violation"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
