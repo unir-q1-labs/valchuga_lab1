@@ -154,7 +154,7 @@
   </dmn:inputData>
   <dmn:inputData id="_4037EE46-8AE4-4E99-93C5-E17CEB542157" name="Violation">
     <dmn:extensionElements/>
-    <dmn:variable id="_82232641-B398-4AE2-A7C1-CF8480451672" name="Violation"/>
+    <dmn:variable id="_82232641-B398-4AE2-A7C1-CF8480451672" name="Violation" typeRef="tViolation"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
