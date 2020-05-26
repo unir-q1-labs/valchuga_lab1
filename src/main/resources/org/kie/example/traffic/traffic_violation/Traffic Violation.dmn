@@ -19,12 +19,21 @@
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_AE8281BE-BA62-4864-BB4F-CF993C8AB627" name="tViolation" isCollection="false">
+    <dmn:itemComponent id="_F3A48D17-4B02-446B-8B8B-FFC71CBD8F09" name="Code" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
     <dmn:itemComponent id="_924945A9-13F8-4B58-A02B-0050E9AEEB2F" name="Date" isCollection="false">
       <dmn:typeRef>date</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_F3A48D17-4B02-446B-8B8B-FFC71CBD8F09" name="Code" isCollection="false"/>
-    <dmn:itemComponent id="_0EFFF931-F511-4102-AB84-6C1E26F78486" name="Type" isCollection="false"/>
-    <dmn:itemComponent id="_9062F31C-D844-4AF2-8E3D-191EFF065395" name="Speed Limit" isCollection="false"/>
+    <dmn:itemComponent id="_0EFFF931-F511-4102-AB84-6C1E26F78486" name="Type" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_9062F31C-D844-4AF2-8E3D-191EFF065395" name="Speed Limit" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_80819F77-9599-4C7A-A2D9-5778CEE5F785" name="Actual Speed" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:decision id="_06A85201-82EB-4391-BF19-F683A996C344" name="Should the driver be suspended?">
     <dmn:extensionElements/>
