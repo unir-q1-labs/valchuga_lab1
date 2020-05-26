@@ -22,27 +22,19 @@
     <dmn:itemComponent id="_DB0E7051-5C04-48BD-A594-8F325675ADDE" name="Code" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_2AAACF45-1F75-4D0E-8C32-FC15AEB717C0" name="Date" isCollection="false">
+    <dmn:itemComponent id="_E1A57C52-E56D-4CE3-914A-1A4F48C52A1D" name="Date" isCollection="false">
       <dmn:typeRef>date</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_F847C16D-5C39-4909-83CA-1479C8CA7C06" name="Type" isCollection="false">
+    <dmn:itemComponent id="_AF135597-3784-45E1-A85D-3E3FB65B9602" name="Type" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
-      <dmn:allowedValues kie:constraintType="enumeration" id="_4CF82C18-4F1C-415F-B9FD-CB0A4DABF5FF">
-        <dmn:text>"speed", "parking", "driving under the influence"</dmn:text>
+      <dmn:allowedValues kie:constraintType="enumeration" id="_6AE573ED-E358-4D89-9290-3AFB0CD677F2">
+        <dmn:text>"speed, parking, driving under the influence "</dmn:text>
       </dmn:allowedValues>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_4FE956C5-2C0D-42FC-A7D9-4081E6B28C27" name="Speed Limit" isCollection="false">
+    <dmn:itemComponent id="_A20AFC07-BA96-4669-89B4-8BC3AC20A46C" name="Speed Limit" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_1795C37F-9E45-4E78-BB4B-5D1BC9574AC5" name="Actual Speed" isCollection="false">
-      <dmn:typeRef>number</dmn:typeRef>
-    </dmn:itemComponent>
-  </dmn:itemDefinition>
-  <dmn:itemDefinition id="_04947C19-A81E-4507-A554-2018D6746B61" name="tFine" isCollection="false">
-    <dmn:itemComponent id="_84491095-0585-4607-8966-68DBC869975E" name="Amount" isCollection="false">
-      <dmn:typeRef>number</dmn:typeRef>
-    </dmn:itemComponent>
-    <dmn:itemComponent id="_4E87E3C9-7619-4CCC-BC86-4A46431ECC4F" name="Points" isCollection="false">
+    <dmn:itemComponent id="_615A7557-4FAD-44D0-AF74-BB360EB69B0F" name="Actual Speed" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
@@ -73,7 +65,7 @@
   </dmn:decision>
   <dmn:decision id="_F49788C3-7C70-41FE-8877-044D27A30210" name="Fine">
     <dmn:extensionElements/>
-    <dmn:variable id="_E2E95CEE-6609-4B41-B041-E0FDE409AD0E" name="Fine" typeRef="tFine"/>
+    <dmn:variable id="_E2E95CEE-6609-4B41-B041-E0FDE409AD0E" name="Fine"/>
     <dmn:informationRequirement id="_E003C0DB-094F-4BB0-8E58-1AE7CD552A0F">
       <dmn:requiredInput href="#_4037EE46-8AE4-4E99-93C5-E17CEB542157"/>
     </dmn:informationRequirement>
