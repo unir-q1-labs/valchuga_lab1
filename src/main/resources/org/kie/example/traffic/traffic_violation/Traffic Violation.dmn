@@ -85,7 +85,7 @@
       </dmn:input>
       <dmn:input id="_EF994C6B-9DAC-4B60-8455-1882DAFAD69D">
         <dmn:inputExpression id="_8D395D8A-4A33-4D0F-86C5-7ECF90119D8F" typeRef="number">
-          <dmn:text>Violation.Actual Speed - Violation.Speed Limiten</dmn:text>
+          <dmn:text>Violation.ActualSpeed-Violation.SpeedLimiten</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_6D6E7B6A-9AB1-4263-911F-FD2DB77B0A95" name="Amount" typeRef="number"/>
@@ -150,7 +150,7 @@
   </dmn:decision>
   <dmn:inputData id="_416E568C-2691-4F04-A368-30F3C7F84604" name="Driver">
     <dmn:extensionElements/>
-    <dmn:variable id="_43E11258-694D-4415-8E78-4542986D85DB" name="Driver" typeRef="tDriver"/>
+    <dmn:variable id="_43E11258-694D-4415-8E78-4542986D85DB" name="Driver"/>
   </dmn:inputData>
   <dmn:inputData id="_4037EE46-8AE4-4E99-93C5-E17CEB542157" name="Violation">
     <dmn:extensionElements/>
