@@ -76,11 +76,6 @@
       <dmn:requiredInput href="#_4037EE46-8AE4-4E99-93C5-E17CEB542157"/>
     </dmn:informationRequirement>
     <dmn:decisionTable id="_9577DB6B-41FB-46AD-8E4F-0ADE13C24188" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
-      <dmn:input id="_CD6CCA28-154E-4DE8-AFD1-872D6FD740AD">
-        <dmn:inputExpression id="_5E6CB1BA-4EC4-40EC-86D7-3767DFC404A3" typeRef="string">
-          <dmn:text>Violation.Type</dmn:text>
-        </dmn:inputExpression>
-      </dmn:input>
       <dmn:input id="_76BD5BED-7DC0-494D-81AB-5BD87C408EE3">
         <dmn:inputExpression id="_404DAA8A-FD8A-444F-98F2-E37B84FC4476" typeRef="number">
           <dmn:text>Violation.Actual Speed - Violation.Speed Limiten</dmn:text>
@@ -89,9 +84,6 @@
       <dmn:output id="_C52418FA-ABE0-482E-808E-1F2B88C137A2" name="Amount" typeRef="number"/>
       <dmn:output id="_1DCD0384-43C8-436C-BC07-DB7E10C54F74" name="Points" typeRef="number"/>
       <dmn:rule id="_01325AC2-180C-4C50-B3F1-B1806CE99B71">
-        <dmn:inputEntry id="_E69D5702-5138-47DB-B507-4675813CF9DF">
-          <dmn:text>"speed"</dmn:text>
-        </dmn:inputEntry>
         <dmn:inputEntry id="_C22CFDA9-411F-49F8-8E49-49AF63DBFC7E">
           <dmn:text>[10..30)</dmn:text>
         </dmn:inputEntry>
@@ -103,9 +95,6 @@
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_2D0B5D98-DAFB-4CD1-97A9-7FE8C2D0EB44">
-        <dmn:inputEntry id="_8372174B-5D85-426F-921B-854887101070">
-          <dmn:text>"parking"</dmn:text>
-        </dmn:inputEntry>
         <dmn:inputEntry id="_DE164BEF-761F-47D5-B460-18049833DE67">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
@@ -117,9 +106,6 @@
         </dmn:outputEntry>
       </dmn:rule>
       <dmn:rule id="_AC2A938E-56AD-4DCF-B4D8-A0B9B82CC961">
-        <dmn:inputEntry id="_D0C9C26E-A543-4F80-BE2E-FBA20B70C651">
-          <dmn:text>"driving under the influence"</dmn:text>
-        </dmn:inputEntry>
         <dmn:inputEntry id="_ABF01EEB-2128-4CD8-95F6-A9B6D74074D0">
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
@@ -157,7 +143,6 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_9577DB6B-41FB-46AD-8E4F-0ADE13C24188">
             <kie:width>50.0</kie:width>
-            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
