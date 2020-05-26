@@ -42,9 +42,7 @@
     <dmn:itemComponent id="_84491095-0585-4607-8966-68DBC869975E" name="Amount" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_4E87E3C9-7619-4CCC-BC86-4A46431ECC4F" name="Points" isCollection="false">
-      <dmn:typeRef>number</dmn:typeRef>
-    </dmn:itemComponent>
+    <dmn:itemComponent id="_4E87E3C9-7619-4CCC-BC86-4A46431ECC4F" name="Points" isCollection="false"/>
   </dmn:itemDefinition>
   <dmn:decision id="_06A85201-82EB-4391-BF19-F683A996C344" name="Should the driver be suspended?">
     <dmn:extensionElements/>
