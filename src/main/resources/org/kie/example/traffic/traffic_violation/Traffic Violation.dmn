@@ -79,7 +79,7 @@
       </dmn:input>
       <dmn:input id="_76BD5BED-7DC0-494D-81AB-5BD87C408EE3">
         <dmn:inputExpression id="_404DAA8A-FD8A-444F-98F2-E37B84FC4476" typeRef="number">
-          <dmn:text>Violation.Actual Speed - Violation.Speed Limiten</dmn:text>
+          <dmn:text>Violation.Actual Speed - Violation.Speed Limite</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_C52418FA-ABE0-482E-808E-1F2B88C137A2" name="Amount" typeRef="number"/>
@@ -190,7 +190,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="445" y="96" width="100" height="50"/>
+        <dc:Bounds x="446" y="96" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_416E568C-2691-4F04-A368-30F3C7F84604" dmnElementRef="_416E568C-2691-4F04-A368-30F3C7F84604" isCollapsed="false">
@@ -216,12 +216,12 @@
         <di:waypoint x="642" y="51"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_3AFC19F1-3C35-4577-AE06-2AE8CE3E20BC" dmnElementRef="_3AFC19F1-3C35-4577-AE06-2AE8CE3E20BC">
-        <di:waypoint x="545" y="121"/>
+        <di:waypoint x="546" y="121"/>
         <di:waypoint x="592" y="26"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_E003C0DB-094F-4BB0-8E58-1AE7CD552A0F" dmnElementRef="_E003C0DB-094F-4BB0-8E58-1AE7CD552A0F">
         <di:waypoint x="495" y="205"/>
-        <di:waypoint x="495" y="146"/>
+        <di:waypoint x="496" y="146"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
