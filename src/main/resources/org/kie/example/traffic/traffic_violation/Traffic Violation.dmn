@@ -38,6 +38,14 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_C8B90217-EEC4-41FD-B09D-C8D01971EB5C" name="tFine" isCollection="false">
+    <dmn:itemComponent id="_DBEDE688-F7FA-4449-A264-5674A6405150" name="Amount" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_5C7C2E12-83C4-4D06-8E64-75BCF5389319" name="Points" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:decision id="_06A85201-82EB-4391-BF19-F683A996C344" name="Should the driver be suspended?">
     <dmn:extensionElements/>
     <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
