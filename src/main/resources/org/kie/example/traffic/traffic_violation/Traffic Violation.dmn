@@ -85,7 +85,7 @@
       </dmn:input>
       <dmn:input id="_EF994C6B-9DAC-4B60-8455-1882DAFAD69D">
         <dmn:inputExpression id="_8D395D8A-4A33-4D0F-86C5-7ECF90119D8F" typeRef="number">
-          <dmn:text>Violation.ActualSpeed-Violation.SpeedLimiten</dmn:text>
+          <dmn:text>Violation.Actual Speed - Violation.Speed Limiten</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_6D6E7B6A-9AB1-4263-911F-FD2DB77B0A95" name="Amount" typeRef="number"/>
